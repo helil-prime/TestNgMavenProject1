@@ -1,87 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-05T19:08:55 EST" name="Default suite" finished-at="2023-01-05T19:09:43 EST" duration-ms="47977">
+  <suite started-at="2023-01-05T21:51:50 EST" name="Default suite" finished-at="2023-01-05T21:51:56 EST" duration-ms="6012">
     <groups>
     </groups>
-    <test started-at="2023-01-05T19:08:55 EST" name="Default test" finished-at="2023-01-05T19:09:43 EST" duration-ms="47977">
-      <class name="test.AmazonSeach">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:08:55 EST" name="setup" finished-at="2023-01-05T19:08:58 EST" duration-ms="2602" status="PASS">
+    <test started-at="2023-01-05T21:51:50 EST" name="Default test" finished-at="2023-01-05T21:51:56 EST" duration-ms="6012">
+      <class name="petStoreApiTests.PetStoreApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:50 EST" name="setup" finished-at="2023-01-05T21:51:51 EST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:08:58 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:23 EST" duration-ms="25547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[coffee mug]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="chainValidation()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:51 EST" name="chainValidation" finished-at="2023-01-05T21:51:54 EST" duration-ms="3567" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:23 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:29 EST" duration-ms="5429" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pretty coffee mug]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- chainValidation -->
+        <test-method signature="createCatWithJsonFile()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:54 EST" name="createCatWithJsonFile" finished-at="2023-01-05T21:51:54 EST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:29 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:32 EST" duration-ms="3616" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ugly coffee mug]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createCatWithJsonFile -->
+        <test-method signature="invalidIdUpdateCat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:54 EST" name="invalidIdUpdateCat" finished-at="2023-01-05T21:51:55 EST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:32 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:36 EST" duration-ms="3894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[funny coffee mug]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- invalidIdUpdateCat -->
+        <test-method signature="postACat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="postACat" finished-at="2023-01-05T21:51:55 EST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:36 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:40 EST" duration-ms="3424" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gold coffee mug]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- postACat -->
+        <test-method signature="postAPet()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="postAPet" finished-at="2023-01-05T21:51:55 EST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:40 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2023-01-05T19:09:43 EST" duration-ms="3257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[argentina coffee mug]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- postAPet -->
+        <test-method signature="findPetByStatus()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="findPetByStatus" finished-at="2023-01-05T21:51:55 EST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearchTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.AmazonSeach@12b0404f]" started-at="2023-01-05T19:09:43 EST" name="quitDriver" finished-at="2023-01-05T19:09:43 EST" duration-ms="155" status="PASS">
+        </test-method> <!-- findPetByStatus -->
+        <test-method signature="getPetById()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="getPetById" finished-at="2023-01-05T21:51:55 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postAPet" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- test.AmazonSeach -->
+        </test-method> <!-- getPetById -->
+        <test-method signature="updateCat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="updateCat" finished-at="2023-01-05T21:51:55 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postACat" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCat -->
+        <test-method signature="getById()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:55 EST" name="getById" finished-at="2023-01-05T21:51:56 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postACat, petStoreApiTests.PetStoreApiTests.updateCat" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getById -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-05T21:51:56 EST" name="cleanup" finished-at="2023-01-05T21:51:56 EST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- petStoreApiTests.PetStoreApiTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
