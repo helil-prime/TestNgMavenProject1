@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class petStoreApiTests {
+public class PetStoreApiTests {
 	
 
 	int catID;

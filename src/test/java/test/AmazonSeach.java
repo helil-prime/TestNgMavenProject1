@@ -34,6 +34,7 @@ public class AmazonSeach {
 	  System.out.println(actualText + "  " + item.length());
 	  Assert.assertEquals(actualText, item);
 	  
+	  
 	  //  "coffee mug"   coffee mug 
   }
   
